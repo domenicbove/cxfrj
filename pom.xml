@@ -25,7 +25,7 @@
 		<module>cxfrj</module>
 	</modules>
   
-    <!-- Need this to run mvn deploy -->
+    <!-- Need this to run mvn deploy
     <distributionManagement>
         <repository>
             <id>nexus</id>
@@ -35,7 +35,7 @@
             <id>nexus</id>
             <url>http://nexus:8081/content/repositories/snapshots</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement> -->
 
 	<build>
 <!-- 		<pluginManagement>
