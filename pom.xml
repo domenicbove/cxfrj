@@ -25,6 +25,7 @@
 		<module>cxfrj</module>
 	</modules>
   
+    <!-- Need this to run mvn deploy -->
     <distributionManagement>
         <repository>
             <id>nexus</id>
