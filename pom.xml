@@ -17,20 +17,8 @@
 		<maven-release-plugin.version>2.3.2</maven-release-plugin.version>
 		<maven-deploy-plugin.version>2.5</maven-deploy-plugin.version>
 		<jetty-maven-plugin.version>7.2.2.v20101205</jetty-maven-plugin.version>
-		<jboss.fuse.bom.version>6.2.1.redhat-084</jboss.fuse.bom.version>
+		<!-- <jboss.fuse.bom.version>6.2.1.redhat-084</jboss.fuse.bom.version> -->
 	</properties>
-
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.jboss.fuse.bom</groupId>
-				<artifactId>jboss-fuse-parent</artifactId>
-				<version>${jboss.fuse.bom.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 
 	<modules>
 		<module>cxfrj-features</module>
@@ -71,7 +59,7 @@
 		</plugins>
 	</build>
 
-	<repositories>
+<!-- 	<repositories>
 		<repository>
 			<id>release.fusesource.org</id>
 			<name>FuseSource Release Repository</name>
@@ -141,6 +129,6 @@
 				<enabled>false</enabled>
 			</releases>
 		</pluginRepository>
-	</pluginRepositories>
+	</pluginRepositories> -->
 
 </project>
