@@ -18,6 +18,18 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
+  
+        <!-- Need this to run mvn deploy -->
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <url>http://nexus:8081/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>http://nexus:8081/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 	<dependencies>
 		<dependency>
